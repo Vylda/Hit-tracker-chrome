@@ -1,0 +1,18 @@
+{
+	"name": "Hit Tracker for Chrome",
+	"version": "1.0.0",
+	"minimum_chrome_version": "73.0",
+	"description": "Hit tracker for developers",
+	"devtools_page": "devtools.html",
+	"permissions": [
+		"tabs",
+		"http://*/*",
+		"https://*/*"
+	],
+	"manifest_version": 2,
+	"icons": {
+		"48": "icons/logs-48.png",
+		"96": "icons/logs-96.png",
+		"128": "icons/logs-128.png"
+	}
+}

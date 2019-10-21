@@ -1,0 +1,96 @@
+:root {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	background-color: whitesmoke;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table thead th {
+	position: sticky;
+	top: 0;
+	font-weight: bold;
+	text-align: left;
+	padding: 10px;
+	min-width: 150px;
+	font-size: 110%;
+	background-color: whitesmoke;
+}
+
+table thead th:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-bottom: 3px double #999;
+}
+
+table thead th:first-child {
+	min-width: 20px;
+}
+
+table tbody tr {
+	border-bottom: 1px solid #999;
+	background-color: white;
+}
+
+table tbody tr:nth-child(even) {
+	background-color: rgb(235, 235, 235);
+}
+
+table tbody td {
+	vertical-align: top;
+	padding: 5px 3px;
+	border-right: 1px dotted #999;
+}
+
+table tbody tr.error {
+	background-color: rgb(255, 215, 177);
+}
+
+table tbody td.error {
+	font-weight: bold;
+	color: #900;
+}
+
+table tbody td:last-child {
+	border-right: none;
+	cursor: pointer;
+}
+
+table tbody td:first-child {
+	border-right: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+table tbody td span {
+	display: block;
+	padding: 2px 10px;
+	width: 100%;
+	border-top: 1px dotted #ccc;
+	box-sizing: border-box;
+	height: 17px;
+}
+
+table tbody td span:first-child {
+	padding-top: 0;
+	border-top: none;
+}
+
+td.action {
+	font-weight: bold;
+}
+
+#clear {
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+	cursor: pointer;
+}

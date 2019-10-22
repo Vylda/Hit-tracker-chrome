@@ -13,7 +13,10 @@ Pokud používáte prohlížeč Firefox, použijte [Hit tracker for Firefox](htt
 
 ## Aktuální verze a download
 
+Rozšíření zatím nebylo publikováno...
+<!--
 ### 1.0
-[download](https://raw.githubusercontent.com/Vylda/Hit-tracker-chrome/1.0/package/hit_tracker-1.0.crx)
+[download](https://chrome.google.com/webstore/detail/dlelffppicddeimbgkciimomlfbjeiom)
 #### Changelog
 * první stabilní verze
+-->

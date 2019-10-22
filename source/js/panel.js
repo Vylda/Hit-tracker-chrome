@@ -9,7 +9,7 @@ class Panel {
 		this._dom.clear.addEventListener("click", this);
 		this._dom.log.addEventListener("click", this);
 
-		chrome.devtools.network.onRequestFinished.addListener(e => { debugger; this._processItem(e); });
+		chrome.devtools.network.onRequestFinished.addListener(e => { this._processItem(e); });
 		chrome.devtools.network.onNavigated.addListener(() => { this._clear(); });
 
 	}

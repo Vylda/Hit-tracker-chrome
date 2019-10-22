@@ -9,9 +9,11 @@ Hit tracker je nástroj určený pro snazší zobrazení požadavků na logován
 
 Po kliknutí na políčko ve sloupci Parameter value se data zobrazí jako objekt v konzoli Nástrojů pro vývojáře.
 
+Pokud používáte prohlížeč Firefox, použijte [Hit tracker for Firefox](https://github.com/Vylda/Hit-tracker).
+
 ## Aktuální verze a download
 
 ### 1.0
-[download](https://raw.githubusercontent.com/Vylda/Hit-tracker-chrome/1.0/package/hit_tracker-1.0-fx.xpi)
+[download](https://raw.githubusercontent.com/Vylda/Hit-tracker-chrome/1.0/package/hit_tracker-1.0.crx)
 #### Changelog
 * první stabilní verze

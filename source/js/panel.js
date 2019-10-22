@@ -67,7 +67,7 @@ class Panel {
 					let value = document.createElement("span");
 
 					name.textContent = dt.name;
-					value.textContent = dt.value;
+					value.textContent = JSON.stringify(dt.value);
 
 					paramNameCell.appendChild(name);
 					paramValueCell.appendChild(value);

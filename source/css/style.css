@@ -5,6 +5,13 @@
 	background-color: whitesmoke;
 }
 
+#clear {
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+	cursor: pointer;
+}
+
 table {
 	border-collapse: collapse;
 }
@@ -86,11 +93,4 @@ table tbody td span:first-child {
 
 td.action {
 	font-weight: bold;
-}
-
-#clear {
-	position: fixed;
-	right: 5px;
-	bottom: 5px;
-	cursor: pointer;
 }

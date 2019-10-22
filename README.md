@@ -1,4 +1,4 @@
-# ![](https://raw.githubusercontent.com/Vylda/Hit-tracker-chrome/master/icons/logs-48.png) Hit tracker for Chrome
+# ![](https://raw.githubusercontent.com/Vylda/Hit-tracker-chrome/master/source/icons/logs-48.png) Hit tracker for Chrome
 
 ![](https://raw.githubusercontent.com/Vylda/Hit-tracker-chrome/master/resources/screenshot.png)
 

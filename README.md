@@ -13,10 +13,8 @@ Pokud používáte prohlížeč Firefox, použijte [Hit tracker for Firefox](htt
 
 ## Aktuální verze a download
 
-Rozšíření zatím nebylo publikováno...
-<!--
-### 1.0
-[download](https://chrome.google.com/webstore/detail/dlelffppicddeimbgkciimomlfbjeiom)
+
+### 1.0.1
+[download](https://chrome.google.com/webstore/detail/hit-tracker-for-chrome/dlelffppicddeimbgkciimomlfbjeiom)
 #### Changelog
 * první stabilní verze
--->

@@ -12,6 +12,62 @@
 	cursor: pointer;
 }
 
+#filter {
+	position: fixed;
+	right: 5px;
+	bottom: 30px;
+	cursor: pointer;
+}
+
+button {
+	width: 50px;
+}
+
+#filter img {
+	width: 14px;
+	height: 14px;
+}
+
+#filter-container {
+	position: fixed;
+	bottom: 65px;
+	right: 10px;
+	width: 300px;
+	border: 1px solid gray;
+	padding: 2px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	background-color: #fcfcfc;
+	z-index: 999;
+}
+
+#filter-container label {
+	display: flex;
+	align-items: center;
+	margin-left: 4px;
+}
+
+#filter-container input[type="text"] {
+	flex: 1 1 auto;
+}
+
+#filter-container .infobox {
+	width: 14px;
+	height: 14px;
+	flex: 0 0 auto;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 2px 1px 2px 0;
+	font-size: 10px;
+	line-height: 8px;
+	border-radius: 50%;
+	background-color: #ccc;
+	cursor: help;
+	margin-left: 8px;
+}
+
 table {
 	border-collapse: collapse;
 }
